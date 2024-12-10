@@ -64,6 +64,11 @@ header{
   border: 0;
   box-shadow: 0px 0px;
 }
+
+.menuButton:active:hover{
+  border: 0;
+  box-shadow: 0px 0px;
+}
 /* .textContainer{
   display: flex;
   flex-direction: column;
@@ -96,13 +101,13 @@ button{
   margin-top: 20px;
 
 }
-.textContainer button:hover{
+button:hover{
   box-shadow: 4px 6px black;
   cursor: pointer;
   transform: translate(-5px, -5px); /* Move o botão para cima e para a esquerda */
 
 }
-.textContainer button:active{
+button:active{
   transform: translate(-2px, -2px); /* Reduz o movimento no clique */
 
   background-color: #7cc97c;
